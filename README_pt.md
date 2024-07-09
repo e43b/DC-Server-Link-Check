@@ -12,30 +12,6 @@ O projeto **DC Server Link Check** é uma ferramenta para checagem de links de s
 
 **Nota importante**: O uso excessivo dessa ferramenta pode levar a bloqueios de IP temporários ou permanentes. Portanto, não é recomendável o uso a não ser em situações bem específicas.
 
-## Funcionalidades
-
-### Check Invite
-
-O script `checkinvite/codept.py` permite verificar se links de convite do Discord estão válidos ou inválidos. 
-
-#### Como Usar
-
-1. Execute o script.
-2. Digite o link ou links de convite separados por vírgulas.
-3. O script verificará na API do Discord e retornará se cada link é válido ou inválido.
-
-### Link Finder
-
-A ferramenta `findinvite/codept.py` tenta encontrar links de convite que foram escritos erroneamente. Se você tiver um link com os caracteres corretos, mas com erros de capitalização, este script pode ajudar.
-
-#### Como Usar
-
-1. Execute o script.
-2. Digite o link de convite do Discord.
-3. O script gerará todas as combinações possíveis de maiúsculas e minúsculas e testará cada uma na API até encontrar o link correto.
-
-**Nota**: Esta ferramenta pode causar bloqueios devido ao número elevado de requisições, resultando no erro 429 (muitas requisições em um curto período de tempo). O script tem um cooldown de espera de 1 segundo entre as tentativas, mas o uso contínuo ou um número elevado de tentativas pode continuar causando bloqueios.
-
 ## Instalação
 
 1. Clone o repositório:
@@ -51,21 +27,39 @@ A ferramenta `findinvite/codept.py` tenta encontrar links de convite que foram e
    pip install -r requirements.txt
    ```
 
-## Uso
+## Funcionalidades
 
 ### Check Invite
+
+O script `checkinvite/codept.py` permite verificar se links de convite do Discord estão válidos ou inválidos. 
+
+#### Como Usar
 
 Para verificar a validade dos links de convite do Discord:
 ```sh
 python checkinvite/codept.py
 ```
 
+1. Execute o script.
+2. Digite o link ou links de convite separados por vírgulas.
+3. O script verificará na API do Discord e retornará se cada link é válido ou inválido.
+
 ### Link Finder
+
+A ferramenta `findinvite/codept.py` tenta encontrar links de convite que foram escritos erroneamente. Se você tiver um link com os caracteres corretos, mas com erros de capitalização, este script pode ajudar.
+
+#### Como Usar
 
 Para encontrar um link de convite do Discord escrito erroneamente:
 ```sh
 python findinvite/codept.py
 ```
+
+1. Execute o script.
+2. Digite o link de convite do Discord.
+3. O script gerará todas as combinações possíveis de maiúsculas e minúsculas e testará cada uma na API até encontrar o link correto.
+
+**Nota**: Esta ferramenta pode causar bloqueios devido ao número elevado de requisições, resultando no erro 429 (muitas requisições em um curto período de tempo). O script tem um cooldown de espera de 1 segundo entre as tentativas, mas o uso contínuo ou um número elevado de tentativas pode continuar causando bloqueios.
 
 ## Doações
 
