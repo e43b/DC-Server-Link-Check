@@ -1,4 +1,4 @@
-# DC Server Link Check
+# DC Server Link Check [![Views](https://hits.sh/github.com/e43bdiscordlinkpt/hits.svg)](https://github.com/e43b/DC-Server-Link-Check/)
 
 [![Donate](https://img.shields.io/badge/Donate-Oxapay-blue)](https://oxapay.com/donate/40874860)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Server-blue)](https://discord.gg/CsBMMXBz7t)
@@ -44,6 +44,8 @@ python checkinvite/codept.py
 2. Digite o link ou links de convite separados por vírgulas.
 3. O script verificará na API do Discord e retornará se cada link é válido ou inválido.
 
+![Check](img/check.png)
+
 ### Link Finder
 
 A ferramenta `findinvite/codept.py` tenta encontrar links de convite que foram escritos erroneamente. Se você tiver um link com os caracteres corretos, mas com erros de capitalização, este script pode ajudar.
@@ -59,7 +61,11 @@ python findinvite/codept.py
 2. Digite o link de convite do Discord.
 3. O script gerará todas as combinações possíveis de maiúsculas e minúsculas e testará cada uma na API até encontrar o link correto.
 
+![Find](img/linkfind.png)
+
 **Nota**: Esta ferramenta pode causar bloqueios devido ao número elevado de requisições, resultando no erro 429 (muitas requisições em um curto período de tempo). O script tem um cooldown de espera de 1 segundo entre as tentativas, mas o uso contínuo ou um número elevado de tentativas pode continuar causando bloqueios.
+
+![Block](img/block.png)
 
 ## Doações
 
