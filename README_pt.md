@@ -72,6 +72,3 @@ Junte-se ao nosso servidor do Discord para discutir este projeto e obter suporte
 ---
 
 **Nota**: Lembre-se sempre de usar essas ferramentas de maneira responsável e dentro dos limites das políticas de uso do Discord.
-```
-
-Este `README.md` fornece uma visão geral clara do projeto, como instalá-lo, usá-lo e onde obter suporte adicional ou contribuir com doações.
