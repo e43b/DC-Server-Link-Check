@@ -1,4 +1,4 @@
-# DC Server Link Check [![Views](https://hits.sh/github.com/e43bdiscordlinkpt/hits.svg)](https://github.com/e43b/DC-Server-Link-Check/)
+# DC Server Link Check [![Views](https://hits.sh/github.com/e43bdiscordlinken/hits.svg)](https://github.com/e43b/DC-Server-Link-Check/)
 
 [![Donate](https://img.shields.io/badge/Donate-Oxapay-blue)](https://oxapay.com/donate/40874860)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Server-blue)](https://discord.gg/CsBMMXBz7t)
@@ -31,13 +31,13 @@ The **DC Server Link Check** project is a tool for checking Discord server invit
 
 ### Check Invite
 
-The `checkinvite/codept.py` script allows you to verify whether Discord invite links are valid or invalid.
+The `checkinvite/codeen.py` script allows you to verify whether Discord invite links are valid or invalid.
 
 #### How to Use
 
 To check the validity of Discord invite links:
 ```sh
-python checkinvite/codept.py
+python checkinvite/codeen.py
 ```
 
 1. Run the script.
@@ -48,13 +48,13 @@ python checkinvite/codept.py
 
 ### Link Finder
 
-The `findinvite/codept.py` tool attempts to find incorrectly written Discord invite links. If you have a link with correct characters but incorrect capitalization, this script can help.
+The `findinvite/codeen.py` tool attempts to find incorrectly written Discord invite links. If you have a link with correct characters but incorrect capitalization, this script can help.
 
 #### How to Use
 
 To find incorrectly written Discord invite links:
 ```sh
-python findinvite/codept.py
+python findinvite/codeen.py
 ```
 
 1. Run the script.
