@@ -75,6 +75,4 @@ Se você achar este projeto útil, considere fazer uma doação para apoiar o de
 
 Junte-se ao nosso servidor do Discord para discutir este projeto e obter suporte: [Servidor do Discord](https://discord.gg/CsBMMXBz7t).
 
----
-
 **Nota**: Lembre-se sempre de usar essas ferramentas de maneira responsável e dentro dos limites das políticas de uso do Discord.
