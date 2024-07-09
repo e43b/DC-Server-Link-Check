@@ -1,6 +1,6 @@
 # DC Server Link Check [![Views](https://hits.sh/github.com/e43bdiscordlinken/hits.svg)](https://github.com/e43b/DC-Server-Link-Check/)
 
-###### [English](README.md) | [Português](README-ptbr.md)
+###### [![](img/en-flag.svg) English](README.md) | [![](img/br.png) Português](README-ptbr.md)
 
 [![Donate](https://img.shields.io/badge/Donate-Oxapay-blue)](https://oxapay.com/donate/40874860)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Server-blue)](https://discord.gg/CsBMMXBz7t)
